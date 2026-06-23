@@ -12,6 +12,7 @@
                 <!-- <p class="text-gray-600 text-sm">Created at: <?= $note['created_at'] ?></p> -->
             </article>
         <?php endforeach; ?>
+        <a href="/note/create" class="text-green-500 text-xl font-bold hover:underline">Create a new note</a>
     </div>
 </main>
 
